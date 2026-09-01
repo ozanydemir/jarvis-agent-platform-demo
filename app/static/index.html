@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Synthetic policy-bounded assistant orchestration demo."><title>Jarvis Agent Platform Demo</title><link rel="stylesheet" href="/static/styles.css"></head>
+<body>
+<!--
+THESIS: The useful assistant is a visible chain of narrow authority, not an all-powerful chat box.
+OWN-WORLD: Warm drafting paper, ink rails, measured green permissions, amber reviews, red hard stops.
+STORY: A reviewer submits a synthetic request and inspects intent, adapter, policy, and audit trace.
+FIRST VIEWPORT: Conversation left, orchestration route center, authority rail right; presets demonstrate states.
+FORM: Engineering routing desk, grounded direction 3, seed d99ec694.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+-->
+<a class="skip" href="#assistant-route">Skip to assistant route</a>
+<header><div class="brand"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 4a8 8 0 0 1 8 8v4a8 8 0 0 1-16 0v-4a8 8 0 0 1 8-8Zm-4 10h8M12 18h8M16 24v4M11 28h10"/></svg><div><strong>Jarvis Agent Platform</strong><span>Conversation-first, policy-bounded orchestration</span></div></div><div class="status"><span></span> Synthetic demo <i></i> No PC authority</div></header>
+<main id="assistant-route" class="shell">
+  <section class="conversation" aria-labelledby="conversation-title"><div class="title"><h1 id="conversation-title">Assistant route</h1><span>Active development</span></div><p>Choose a synthetic request or write one. No model or external service is called.</p><div class="presets"><button data-message="Show the synthetic weather forecast">Weather</button><button data-message="Build a small API project">Project task</button><button data-message="Run a shell command">Blocked action</button></div><form id="assistant-form"><label for="message">Request</label><textarea id="message" rows="4">Build a small API project</textarea><button class="run" type="submit">Simulate request</button></form><div class="response"><span>Assistant response</span><p id="response-text">Route a request to inspect the response.</p></div></section>
+  <section class="route"><div class="route-head"><h2>Orchestration trace</h2><span id="elapsed">0 ms</span></div><ol id="trace"><li><span>01</span><div><strong>Waiting for request</strong><small>The trace will appear here.</small></div><b>Idle</b></li></ol></section>
+  <aside class="authority"><section><div class="aside-head"><h2>Policy decision</h2><span id="decision" class="badge">Waiting</span></div><dl><div><dt>Intent</dt><dd id="intent">—</dd></div><div><dt>Adapter</dt><dd id="adapter">—</dd></div><div><dt>Human approval</dt><dd id="human">—</dd></div></dl></section><section><h2>Authority boundary</h2><ul><li class="allow">Public data adapter</li><li class="allow">Safe calculation</li><li class="review">Project delegation</li><li class="block">Shell and filesystem</li><li class="block">Credentials and production</li></ul></section><section class="audit"><h2>Audit promise</h2><p>Every classified intent, selected adapter, policy decision, and synthetic result remains visible.</p><a href="/docs">Inspect API schema →</a></section></aside>
+</main>
+<footer><span>All requests and adapter outputs are synthetic.</span><span>FastAPI · typed intents · deterministic policy · pytest</span></footer>
+<script src="/static/app.js" defer></script></body></html>
