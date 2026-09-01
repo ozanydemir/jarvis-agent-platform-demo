@@ -10,12 +10,15 @@ trace that explains what was allowed, reviewed, or blocked.
 It contains no voice recordings, personal memory, local paths, API keys, real PC actions, shell
 access, or private project data.
 
-## Interface
+## Prototype dashboard reference
 
 <p align="center">
-  <img src="docs/screenshots/index-desktop.png" width="73%" alt="Policy-bounded assistant route on desktop">
-  <img src="docs/screenshots/index-mobile.png" width="23%" alt="Policy-bounded assistant route on mobile">
+  <img src="docs/reference/jarvis-dashboard-prototype.png" width="96%" alt="Static local Jarvis dashboard prototype">
 </p>
+
+This is a static, owner-supplied dashboard prototype capture. It is not connected to a PC, account,
+file system, integration, or live task queue. The image is included to show interface direction only;
+the public repository exposes neither the dashboard's private implementation nor operational data.
 
 ## Architecture
 
